@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 28px;
+}
+
+#header-logo {
+    display: flex;
+    justify-content: left;
+    text-indent: 15px;
+}
+
+#input {
+    display: block;
+    position: relative;
+}
+
+#input-form {
+    display: block;
+    text-align: center;
+    height: 600px;
+    width: 500px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-left: 38%;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#ask-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+
+#ask {
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+
+#detail-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+
+#detail {
+    height: 100px;
+    width: 350px;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+
+#tag-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+
+#tag-input {
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+
+#tag {
+    height: 200px;
+    width: 420px;
+    margin-top: 10px;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+
+#btn {
+    height: 100px;
+    align-items: center;
+    padding-top: 25px;
+}
+
+#save {
+    height: 35px;
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+#reset {
+    height: 35px;
+    width: 100px;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.tag {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #9306af;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tag:hover {
+    background-color: #2c0426;
+}
+
+#save-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 1 calc(33.33% -15px);
+    /*１行に３つまでカードを表示させる*/
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #f9f9f9;
+}
+
+.delete-button {
+    display: inline-block;
+    width: 80px;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #4a4a4c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+pre {
+        flex: 0 1 calc(33.33% -15px);
+            /*１行に３つまでカードを表示させる*/
+            width: 500px;
+            height: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            font-size: 25px;
+            line-height: 50px;
+}
